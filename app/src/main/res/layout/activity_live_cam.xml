@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEFEFE"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/ipAddressInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your ESP32 CAM IP" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startStreamButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Live Stream"
+        android:layout_below="@id/ipAddressInput"
+        android:layout_marginTop="8dp"
+        android:background="#B90022"
+        android:textColor="#CFD8DC"/>
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/startStreamButton"
+        android:layout_marginTop="8dp" />
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FEFEFE">
+
+    <TextView
+        android:id="@+id/latitudeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Latitude" />
+
+    <TextView
+        android:id="@+id/longitudeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/latitudeTextView"
+        android:layout_marginTop="16dp"
+        android:hint="Longitude" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/showMapButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/longitudeTextView"
+        android:layout_marginTop="41dp"
+        android:background="#B90022"
+        android:textColor="#CFD8DC"
+        android:text="Show on Map" />
+</RelativeLayout>

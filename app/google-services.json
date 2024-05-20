@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "198852122326",
+    "firebase_url": "https://gps-tracker-b8f9e-default-rtdb.firebaseio.com",
+    "project_id": "gps-tracker-b8f9e",
+    "storage_bucket": "gps-tracker-b8f9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198852122326:android:5070d7ec97cfefe336db77",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0MAt8yfXV0upgs6at7x_lCaPE7oh99-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
