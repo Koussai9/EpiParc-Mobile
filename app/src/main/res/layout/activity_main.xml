@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEFEFE"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="1264dp"
+        android:layout_height="478dp"
+        android:src="@drawable/car" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnWhereIsMyCar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="53dp"
+        android:background="#B90022"
+        android:text="@string/where_s_my_car"
+        android:textColor="#CFD8DC" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnWhoTouchedCar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnWhereIsMyCar"
+        android:layout_marginBottom="8dp"
+        android:background="#B90022"
+        android:text="Who Touched My Car?"
+        android:textColor="#CFD8DC"
+        android:visibility="visible" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnWhosTheDriver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnWhoTouchedCar"
+        android:layout_marginBottom="8dp"
+        android:background="#B90022"
+        android:text="Who's the Driver?"
+        android:textColor="#CFD8DC"
+        android:visibility="visible" />
+
+</RelativeLayout>
